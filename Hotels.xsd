@@ -25,13 +25,13 @@
                     <xs:element name="State" type="xs:string" minOccurs="1" maxOccurs="1" />
                     <xs:element name="Zip" type="xs:int" minOccurs="1" maxOccurs="1" />
                   </xs:sequence>
-                  <!-- Optional NearstAirport attribute -->
-                  <xs:attribute name="NearstAirport" type="xs:string" use="optional" />
+                  <!-- Required NearstAirport attribute -->
+                  <xs:attribute name="NearstAirport" type="xs:string" use="required" />
                 </xs:complexType>
               </xs:element>
             </xs:sequence>
-            <!-- Required Rating attribute -->
-            <xs:attribute name="Rating" type="xs:decimal" use="required" />
+            <!-- Optional Rating attribute -->
+            <xs:attribute name="Rating" type="xs:decimal" use="optional" />
           </xs:complexType>
         </xs:element>
       </xs:sequence>
