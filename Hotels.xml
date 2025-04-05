@@ -4,7 +4,7 @@
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearsAirport="Sky Harbor">
       <Number>11</Number>
       <Street>E 7th St</Street>
       <City>Tempe</City>
@@ -15,7 +15,7 @@
   <Hotel Rating="4.5">
     <Name>Marriott Phoenix Resort Tempe at The Buttes</Name>
     <Phone>602-225-9000</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearsAirport="Sky Harbor">
       <Number>2000</Number>
       <Street>W Westcourt Way</Street>
       <City>Tempe</City>
@@ -38,7 +38,7 @@
   <Hotel Rating="4.8">
     <Name>The Phoenician</Name>
     <Phone>480-941-8200</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearsAirport="Sky Harbor">
       <Number>6000</Number>
       <Street>E Camelback Rd</Street>
       <City>Scottsdale</City>
@@ -60,7 +60,7 @@
   <Hotel Rating="3.9">
     <Name>Hilton Garden Inn Phoenix Airport North</Name>
     <Phone>602-470-0500</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearsAirport="Sky Harbor">
       <Number>3838</Number>
       <Street>E Van Buren St</Street>
       <City>Phoenix</City>
@@ -83,7 +83,7 @@
   <Hotel Rating="4.1">
     <Name>Embassy Suites by Hilton Phoenix Tempe</Name>
     <Phone>480-897-7444</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearsAirport="Sky Harbor">
       <Number>4400</Number>
       <Street>S Rural Rd</Street>
       <City>Tempe</City>
@@ -105,7 +105,7 @@
   <Hotel Rating="3.8">
     <Name>DoubleTree by Hilton Phoenix Mesa</Name>
     <Phone>480-844-7200</Phone>
-    <Address NearestAirport="Phoenix-Mesa Gateway">
+    <Address NearsAirport="Phoenix-Mesa Gateway">
       <Number>1011</Number>
       <Street>W Holmes Ave</Street>
       <City>Mesa</City>
@@ -117,7 +117,7 @@
     <Name>Renaissance Phoenix Downtown Hotel</Name>
     <Phone>602-333-0000</Phone>
     <Phone>800-468-3571</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearsAirport="Sky Harbor">
       <Number>100</Number>
       <Street>N 1st St</Street>
       <City>Phoenix</City>
