@@ -1,36 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<!-- This is my schema for the Hotels XML file - created for Assignment 4 -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+    elementFormDefault="qualified">
   
-  <!-- Root element Hotels -->
+  <!-- The root Hotels element contains all the hotel info -->
   <xs:element name="Hotels">
     <xs:complexType>
       <xs:sequence>
-        <!-- Hotel elements, can have multiple -->
-        <xs:element name="Hotel" minOccurs="1" maxOccurs="unbounded">
+        <!-- Each Hotel has a name, phones, address, etc. -->
+        <xs:element name="Hotel" minOccurs="1" 
+          maxOccurs="unbounded">
           <xs:complexType>
             <xs:sequence>
-              <!-- Name element -->
-              <xs:element name="Name" type="xs:string" minOccurs="1" maxOccurs="1" />
+              <!-- Every hotel needs a name -->
+              <xs:element name="Name" type="xs:string" 
+                minOccurs="1" maxOccurs="1" />
               
-              <!-- Phone element, can have multiple -->
-              <xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded" />
+              <!-- Some hotels have multiple phone numbers -->
+              <xs:element name="Phone" type="xs:string" 
+                minOccurs="1" maxOccurs="unbounded" />
               
-              <!-- Address element -->
+              <!-- All the address info goes here -->
               <xs:element name="Address" minOccurs="1" maxOccurs="1">
                 <xs:complexType>
                   <xs:sequence>
-                    <xs:element name="Number" type="xs:int" minOccurs="1" maxOccurs="1" />
-                    <xs:element name="Street" type="xs:string" minOccurs="1" maxOccurs="1" />
-                    <xs:element name="City" type="xs:string" minOccurs="1" maxOccurs="1" />
-                    <xs:element name="State" type="xs:string" minOccurs="1" maxOccurs="1" />
-                    <xs:element name="Zip" type="xs:int" minOccurs="1" maxOccurs="1" />
+                    <!-- Using int for number since it's a number -->
+                    <xs:element name="Number" type="xs:int" 
+                        minOccurs="1" maxOccurs="1" />
+                    <xs:element name="Street" type="xs:string" 
+                        minOccurs="1" maxOccurs="1" />
+                    <xs:element name="City" type="xs:string" 
+                      minOccurs="1" maxOccurs="1" />
+                    <xs:element name="State" type="xs:string" 
+                      minOccurs="1" maxOccurs="1" />
+                    
+                    <!-- Zip is also a number so using int -->
+                    <xs:element name="Zip" type="xs:int" 
+                      minOccurs="1" maxOccurs="1" />
                   </xs:sequence>
-                  <!-- Required NearstAirport attribute -->
+                  
+                  <!-- Had to make NearstAirport required since that's what TA said -->
                   <xs:attribute name="NearstAirport" type="xs:string" use="required" />
                 </xs:complexType>
               </xs:element>
             </xs:sequence>
-            <!-- Optional Rating attribute -->
+            
+            <!-- Rating is optional but nice to have -->
             <xs:attribute name="Rating" type="xs:decimal" use="optional" />
           </xs:complexType>
         </xs:element>
