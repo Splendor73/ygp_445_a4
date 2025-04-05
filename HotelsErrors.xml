@@ -5,53 +5,53 @@
   
   <!-- Error #2: I forgot to add the Rating attribute here -->
   <Hotel>
-    <Name>Westin</Name>
-    <Phone>480-968-8885</Phone>
-    <Phone>800-937-8461</Phone>
-    <Address NearstAirport="Sky Harbor">
-      <Number>11</Number>
-      <Street>E 7th St</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85281</Zip>
+    <Name>Park Inn by Radisson Frankfurt Airport Hotel</Name>
+    <Phone>+49-69-9002-5000</Phone>
+    <Phone>+49-800-723-1234</Phone>
+    <Address NearstAirport="Frankfurt Airport">
+      <Number>8</Number>
+      <Street>Amelia-Mary-Earhart-Str.</Street>
+      <City>Frankfurt</City>
+      <State>Hesse</State>
+      <Zip>60549</Zip>
     </Address>
   </Hotel>
   
   <!-- Error #3: I removed the Phone element on purpose -->
-  <Hotel Rating="4.5">
-    <Name>Marriott Phoenix Resort Tempe at The Buttes</Name>
-    <Address NearstAirport="Sky Harbor">
-      <Number>2000</Number>
-      <Street>W Westcourt Way</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85282</Zip>
+  <Hotel Rating="8.6">
+    <Name>Best Western Hotel Airport Frankfurt</Name>
+    <Address NearstAirport="Frankfurt Airport">
+      <Number>1</Number>
+      <Street>De-Saint-Exupéry-Str.</Street>
+      <City>Frankfurt</City>
+      <State>Hesse</State>
+      <Zip>60549</Zip>
     </Address>
   </Hotel>
   
   <!-- Error #4: The Address closing tag is missing! -->
-  <Hotel Rating="4.3">
-    <Name>Hyatt Regency Phoenix</Name>
-    <Phone>602-252-1234</Phone>
+  <Hotel Rating="9.4">
+    <Name>Steigenberger Icon Frankfurter Hof</Name>
+    <Phone>+49-69-215-02</Phone>
     <Address>
-      <Number>122</Number>
-      <Street>N 2nd St</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85004</Zip>
+      <Number>1</Number>
+      <Street>Am Kaiserplatz</Street>
+      <City>Frankfurt</City>
+      <State>Hesse</State>
+      <Zip>60311</Zip>
   </Hotel>
   
   <!-- Error #5: Added two names for this hotel, which isn't allowed -->
-  <Hotel Rating="4.8">
-    <Name>The Phoenician</Name>
-    <Name>The Phoenix Resort</Name>
-    <Phone>480-941-8200</Phone>
-    <Address NearstAirport="Sky Harbor">
-      <Number>6000</Number>
-      <Street>E Camelback Rd</Street>
-      <City>Scottsdale</City>
-      <State>AZ</State>
-      <Zip>85251</Zip>
+  <Hotel Rating="9.2">
+    <Name>Hyatt Place Frankfurt Airport</Name>
+    <Name>Hyatt Airport Frankfurt</Name>
+    <Phone>+49-69-643511234</Phone>
+    <Address NearstAirport="Frankfurt Airport">
+      <Number>8</Number>
+      <Street>De-Saint-Exupéry-Str.</Street>
+      <City>Frankfurt</City>
+      <State>Hesse</State>
+      <Zip>60549</Zip>
     </Address>
   </Hotel>
 </Hotel> 
